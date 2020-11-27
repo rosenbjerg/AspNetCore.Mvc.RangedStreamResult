@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore.Mvc.RangedStreamResult", "AspNetCore.Mvc.RangedStreamResult\AspNetCore.Mvc.RangedStreamResult.csproj", "{35FD6F25-521A-481F-B529-AB99E265EB19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{3714A43F-47C9-4642-8FDD-1EB95BB409CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35FD6F25-521A-481F-B529-AB99E265EB19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35FD6F25-521A-481F-B529-AB99E265EB19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35FD6F25-521A-481F-B529-AB99E265EB19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35FD6F25-521A-481F-B529-AB99E265EB19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3714A43F-47C9-4642-8FDD-1EB95BB409CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3714A43F-47C9-4642-8FDD-1EB95BB409CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3714A43F-47C9-4642-8FDD-1EB95BB409CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3714A43F-47C9-4642-8FDD-1EB95BB409CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
