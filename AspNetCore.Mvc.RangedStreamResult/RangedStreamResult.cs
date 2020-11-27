@@ -87,10 +87,6 @@ namespace AspNetCore.Mvc.RangedStream
                     context.HttpContext.Response.Headers["Accept-Ranges"] = "bytes";
                     context.HttpContext.Response.Headers["Content-Type"] = DetermineContentType(filename, contentType);
                     context.HttpContext.Response.Headers["Content-Range"] = ranged ? $"bytes {from}-{to}/{fullLength}" : null;
-                    if (from != 0)
-                    {
-                        Console.WriteLine("do");
-                    }
                     context.HttpContext.Response.Headers["Content-Disposition"] = $"{(_attachment ? "attachment" : "inline")}; filename=\"{WebUtility.UrlEncode(filename)}\"";
 
                     await using (stream)

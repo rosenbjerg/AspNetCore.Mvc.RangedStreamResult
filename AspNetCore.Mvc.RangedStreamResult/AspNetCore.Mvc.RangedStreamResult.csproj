@@ -14,9 +14,9 @@
         <RepositoryUrl>https://github.com/rosenbjerg/AspNetCore.Mvc.RangedStreamResult</RepositoryUrl>
         <RepositoryType>GitHub</RepositoryType>
         <PackageTags>range request stream aspnetcore mvc actionresult</PackageTags>
-        <PackageReleaseNotes>Fix range calculation</PackageReleaseNotes>
+        <PackageReleaseNotes>Remove debug print</PackageReleaseNotes>
         <RootNamespace>AspNetCore.Mvc.RangedStream</RootNamespace>
-        <PackageVersion>1.3.1</PackageVersion>
+        <PackageVersion>1.3.2</PackageVersion>
     </PropertyGroup>
 
     <ItemGroup>
